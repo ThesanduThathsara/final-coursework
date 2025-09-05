@@ -4,15 +4,25 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9eba5d2-8b78-4ee8-822f-5e663186789d" name="Changes" comment="reset the project &amp; Install Nativewind">
-      <change afterPath="$PROJECT_DIR$/app/(windows)/_layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(windows)/profile.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(windows)/saved.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(windows)/search.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/movies/[id].tsx" afterDir="false" />
+    <list default="true" id="c9eba5d2-8b78-4ee8-822f-5e663186789d" name="Changes" comment="delete unused images">
+      <change afterPath="$PROJECT_DIR$/assets/constants/icons.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/constants/images.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/save.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/highlight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/rankingGradient.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/interfaces/interfaces.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/images.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(windows)/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(windows)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(windows)/_layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,29 +60,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;error-correction&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Thesandu/WebstormProjects/final-coursework&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Thesandu\\WebstormProjects\\final-coursework\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "error-correction",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Thesandu/WebstormProjects/final-coursework",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\Thesandu\\WebstormProjects\\final-coursework\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -83,7 +93,16 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Thesandu\WebstormProjects\final-coursework" />
+      <recent name="C:\Users\Thesandu\WebstormProjects\final-coursework\assets\constants" />
+      <recent name="C:\Users\Thesandu\WebstormProjects\final-coursework\assets\images" />
+      <recent name="C:\Users\Thesandu\WebstormProjects\final-coursework\assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Thesandu\WebstormProjects\final-coursework\assets" />
+      <recent name="C:\Users\Thesandu\WebstormProjects\final-coursework\assets\icons" />
+      <recent name="C:\Users\Thesandu\WebstormProjects\final-coursework\assets\images" />
       <recent name="C:\Users\Thesandu\WebstormProjects\final-coursework\app\(windows)" />
     </key>
   </component>
@@ -105,7 +124,7 @@
       <workItem from="1756475736359" duration="220000" />
       <workItem from="1756479916389" duration="1610000" />
       <workItem from="1756900103055" duration="3085000" />
-      <workItem from="1756982987053" duration="3597000" />
+      <workItem from="1756982987053" duration="13694000" />
     </task>
     <task id="LOCAL-00001" summary="reset the project">
       <option name="closed" value="true" />
@@ -131,7 +150,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756480643093</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="modify tab navigation">
+      <option name="closed" value="true" />
+      <created>1756989832427</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756989832427</updated>
+    </task>
+    <task id="LOCAL-00005" summary="delete unused images">
+      <option name="closed" value="true" />
+      <created>1756989863269</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756989863269</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +175,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="reset the project" />
     <MESSAGE value="reset the project &amp; Install Nativewind" />
-    <option name="LAST_COMMIT_MESSAGE" value="reset the project &amp; Install Nativewind" />
+    <MESSAGE value="modify tab navigation" />
+    <MESSAGE value="delete unused images" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete unused images" />
   </component>
 </project>

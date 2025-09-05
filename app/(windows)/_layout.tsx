@@ -1,6 +1,25 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import {StyleSheet, View, Text, ImageBackground, Image} from 'react-native';
 import {Tabs} from "expo-router";
+import {images} from "@/assets/constants/images";
+import {icons} from "@/assets/constants/icons";
+
+// create component
+const TabiIcon=()=>{
+    return(
+        <ImageBackground
+            source={images.highlight}
+            // className="flex flex-row w-full flex-1 min-w[112px] min-h-14 mt-4 justify-center items-center
+            // rounded-full overflow-hidden"
+            className="flex flex-row w-[120px] min-w-[112px] min-h-14 mt-4 justify-center items-center rounded-full overflow-hidden"
+        >
+            <Image source={icons.home}
+                   tintColor="#151312" className="size-5"/>
+
+            <Text className="text-secondary text-base font-semibold" >Home</Text>
+        </ImageBackground>
+    )
+}
 
 const _layout = () => {
   return (
@@ -10,6 +29,9 @@ const _layout = () => {
             options={{
                 title: 'Home',
                 headerShown: false,
+                tabBarIcon:({ focused }) => (
+                    <TabiIcon/>
+                )
             }}
         />
         <Tabs.Screen
